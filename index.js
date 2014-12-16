@@ -99,3 +99,4 @@ module.exports = function(file, options) {
 module.exports.process = process;
 module.exports.isJSXExtensionRe = isJSXExtensionRe;
 module.exports.runtime = require.resolve('react');
+module.exports.runtimeAddons = require.resolve('react/addons');
